@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #nav > ul {
+            border: 0px solid red;
+            list-style: none;
+            padding: 0;
+            /*height: 50px;*/
+            overflow: hidden;
+            width: 1000px;
+        }
+        #nav li {
+            border-top: 1px solid rgb(192, 141, 255);
+            border-bottom: 1px solid rgb(192, 141, 255);
+            border-left: 0px solid #000;
+            border-right: 0px solid #000;
+            width: 200px;
+            height: 50px;
+            /*display: inline-block;*/
+            display: block;
+            /*높이 X, 하위요소에 맞게 크기 조정*/
+            float: left;
+            box-sizing: border-box;
+            text-align: center;
+            line-height: 50px;
+        }
+        #nav li:hover {
+            background-color: rgb(246, 210, 216);
+            border-bottom: 2px solid rgb(191, 164, 250);
+        }
+        h1 {
+            text-align: center;
+            width: 1000px;
+        }
+        div#page {
+          width: 1000px;
+          /* 좌, 우가 모드 auto이면 가운데 정렬 한다. */
+          margin: 0 auto;  
+        }
+    </style>
+</head>
+<body>
+    <div id="page">
+        <div id="head">
+            <h1>𝓜𝔂 𝓗𝓸𝓶𝓮 𝓟𝓪𝓰𝓮</h1>
+            <div id="nav">
+                <ul>
+                    <li>𝓗𝓞𝓜𝓔</li>
+                    <li>𝓟𝓡𝓞𝓕𝓘𝓛𝓔</li>
+                    <li>𝓖𝓐𝓛𝓛𝓔𝓡𝓨</li>
+                    <li>𝓛𝓔𝓒𝓣𝓤𝓡𝓔</li>
+                    <li>𝓑𝓞𝓐𝓡𝓓</li>
+                </ul>
+            </div>
+        </div>
+        <div id="content">
+            <h2>𝑾𝒆𝒍𝒄𝒐𝒎𝒆 𝒕𝒐 𝒗𝒊𝒔𝒊𝒕..</h2>
+        </div>
+    </div>
+</body>
+</html>
